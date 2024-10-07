@@ -1,0 +1,177 @@
+body {
+    Margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #444444;
+}
+
+h1.h2,
+h3,
+h4,
+h5,
+h5 {
+    font-family: 'ínter', sans-serif;
+    color: #222222;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+#banner {
+    object-fit: cover;
+    width: 100%;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#our {
+    width: 800px;
+    margin: auto;
+    display: flex;
+
+}
+
+.service {
+    width: 50%;
+
+}
+
+#service-image {
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+#description {
+    width: 50%;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #3B82F6
+}
+
+a:hover,
+a:focus {
+    color: #1D4ED8;
+}
+
+#jobs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+    color: #222222
+}
+
+#jobs-table {
+    border: 1px solid gray;
+    width: 100%;
+}
+
+.jobs-header-row th {
+    border: 1px solid gray;
+    background-color: #BFDBFE;
+    padding: 8px;
+}
+
+.jobs-data-row td {
+    border: 1px solid gray;
+    padding: 8px;
+}
+
+#jobs-table tr:nth-child(odd) {
+    background-color: #EFF6FF;
+}
+
+#application {
+    max-width: 800px;
+    padding: 0 8px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-top: 8px;
+
+}
+
+.form-group textarea {
+    width: 50%;
+}
+
+.form-group [type="submit"] {
+    background-color: #1D4ED8;
+}
+
+#application-form div {
+    margin: 16px;
+}
+
+#application-form label {
+    font-weight: 600;
+
+}
+
+#application-form input,
+select,
+textarea {
+    font-size: 1.2rem;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#footer {
+    background-color: #D1D5DB;
+    padding: 8px;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+#footer-links {
+    list-style: none;
+}
+
+#footer-links li {
+    display: inline;
+    margin: 0 16px;
+
+}
+
+.copyright {
+    color: #6B7280;
+    font-size: 0.7rem;
+}
